@@ -55,13 +55,13 @@ class Header extends Component {
     return (
       <AppBar position="fixed" className={classes.appBar}>
           <Toolbar className={classes.toolBar}>
-            <Button className={classes.logo} color="inherit" component={Link} to={AppUrls.Home.Root}>נדל"ן המאה</Button>
+            <Button className={classes.logo} color="inherit" component={Link} to={AppUrls.Home.Root}>עולם העץ</Button>
 
             <div className={classes.grow} />
             <div className={classes.navBarItemsDesktop}>
               <HeaderButtonDesktop isActive={pathNameLower === AppUrls.About.Root.toLocaleLowerCase()} color="inherit" component={Link} to={AppUrls.About.Root}>אודות</HeaderButtonDesktop>
               <HeaderButtonDesktop isActive={pathNameLower === AppUrls.Contact.Root.toLocaleLowerCase()} color="inherit" component={Link} to={AppUrls.Contact.Root}>צור קשר</HeaderButtonDesktop>
-              <HeaderButtonDesktop isActive={pathNameLower === AppUrls.Assets.Root.toLocaleLowerCase()} color="inherit" component={Link} to={AppUrls.Assets.Root}>נכסים</HeaderButtonDesktop>
+              <HeaderButtonDesktop isActive={pathNameLower === AppUrls.Assets.Root.toLocaleLowerCase()} color="inherit" component={Link} to={AppUrls.Assets.Root}>עצים</HeaderButtonDesktop>
               <HeaderButtonDesktop isActive={pathNameLower === AppUrls.Home.Root.toLocaleLowerCase()} color="inherit" component={Link} to={AppUrls.Home.Root}>ראשי</HeaderButtonDesktop>
             </div>
             <div className={classes.navBarItemsMobile}>

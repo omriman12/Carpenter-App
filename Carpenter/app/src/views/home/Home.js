@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import { withStyles  } from '@material-ui/core/styles';
 
 //components
+import SliderSection from './components/SliderSection';
 import SearchAssetsSection from './components/SearchAssetsSection';
 
 
@@ -16,6 +17,9 @@ class Home extends Component {
     render() {
         return (
             <React.Fragment>
+                <section>
+                    <SliderSection/>
+                </section>
                 <section>
                     <SearchAssetsSection/>
                 </section>

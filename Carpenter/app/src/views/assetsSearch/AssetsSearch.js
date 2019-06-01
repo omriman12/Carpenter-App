@@ -8,34 +8,15 @@ import { withStyles  } from '@material-ui/core/styles';
 //components
 import AppContentLayout from '../../Layouts/AppContentLayout';
 import AppTitleLayout from '../../Layouts/AppTitleLayout';
-
-const data = [{ id: 1, wood: 'wood 1', type: 'wood type 1', year: '1982' }];
-const columns = [
-    {
-        name: 'Wood',
-        selector: 'wood',
-        sortable: true,
-    },
-    {
-        name: 'Type',
-        selector: 'type',
-        sortable: true,
-    },
-    {
-        name: 'Year',
-        selector: 'year',
-        sortable: true,
-        // right: true,
-    },
-];
+import WoodSearch from '../../components/WoodSearch/WoodSearch'
 
 
 const styles = theme => ({
     tableWrapper: {
-        width: '50%',
+        width: '70%',
         margin: '0 auto',
+        padding: '1%'
     },
-    
 });
 
 class AssetsSearch extends Component {
@@ -44,16 +25,12 @@ class AssetsSearch extends Component {
         return (
             <React.Fragment>
                 <AppTitleLayout>
-                    חיפוש נכסים
+                    חיפוש עצים
                 </AppTitleLayout>
                 <AppContentLayout>
                     <div className={classes.tableWrapper}>
-                        <DataTable
-                            columns={columns}
-                            data={data}
-                        />
+                        <WoodSearch/>
                     </div>
-                
                 </AppContentLayout>
             </React.Fragment>
         );

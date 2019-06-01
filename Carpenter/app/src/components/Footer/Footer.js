@@ -108,7 +108,7 @@ class Footer extends Component {
                       <Button color="inherit" component={Link} to={AppUrls.Home.Root}>ראשי</Button>
                     </ListItem>
                     <ListItem>
-                      <Button color="inherit" component={Link} to={AppUrls.Assets.Root}>נכסים</Button>
+                      <Button color="inherit" component={Link} to={AppUrls.Assets.Root}>חיפוש עץ</Button>
                     </ListItem>
                     <ListItem>
                       <Button color="inherit" component={Link} to={AppUrls.Contact.Root}>צור קשר</Button>
@@ -158,7 +158,7 @@ class Footer extends Component {
                   <img src={footer_property} alt="property"/>
                 </Grid>
                 <Grid item>
-                    אנו חברת תיווך
+                  אנו חברת עץ
                 </Grid>
               </Grid>
             </Grid>

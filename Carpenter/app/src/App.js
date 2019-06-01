@@ -20,7 +20,7 @@ class App extends Component {
             <AppLayout>
               <AppRouter/>
             </AppLayout>
-            {/* <Footer/> */}
+            <Footer/>
         </React.Fragment>
       </Provider>
     );
