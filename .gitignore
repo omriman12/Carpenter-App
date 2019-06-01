@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Carpenter
+/Carpenter/obj
+/Carpenter/app/node_modules
+/Carpenter/app/package-lock.json
+/Carpenter/Carpenter.csproj.user
